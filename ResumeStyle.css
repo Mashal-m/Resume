@@ -1,0 +1,104 @@
+
+body{
+    font-family: "Roboto"; 
+}
+
+.introduction {
+  display: block;  
+}
+
+.introduction__name {
+  font-size: 2rem;
+  font-family: "Roboto";
+margin-bottom: 1rem;
+  color: #323b47;
+}
+
+.introduction__title {
+  font-size: 1rem;
+  color: #449399;
+  font-family: "Roboto";
+
+}
+.introduction__desc {
+    
+    font-family: "Roboto";
+  
+  }
+.contactsDetail{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    color: white;
+    background-color: #313c4e;
+}
+.detailedData {
+  display: flex;
+}
+.detailedData__points {
+    font-weight: bold;
+    font-size: 1rem;
+    color: #449399;
+    text-decoration: underline;
+}
+
+.detailedData__heading {
+  font-weight: bold;
+  font-size: 1rem;
+}
+.detailedData--headingSize{
+    font-weight: 500;
+}
+.detailedData__row {
+  width: 50% !important;
+}
+.detailedData__listItem {
+  display: list-item;
+}
+.detailedData__text {
+  font-style: italic;
+  color: #449399;
+ 
+}
+.detailedData__skillsStyle {
+  background-color: #909090;
+  color: white;
+  border-radius: 4px;
+  width: 5rem;
+  padding: 2px;
+}
+
+/* For Tablets */
+
+@media screen and (min-width: 768px){
+
+}
+
+
+/* For Laptop */
+
+@media screen and (min-width: 1025px){
+    body{
+        padding: 2rem
+    }
+    .introduction__title {
+        font-size: 1.5rem;
+        color: #449399;
+        font-family: "Roboto";
+      
+      }
+
+    .detailedData__points {
+        font-weight: bold;
+        font-size: 1rem;
+        font-size: 2rem;
+        color: #449399;
+        text-decoration: underline;
+    }
+
+    .introduction__desc {
+    font-size: 2rem;
+        font-family: "Roboto";
+      
+      }
+}
